@@ -1,8 +1,4 @@
 import { I18nextProvider } from 'react-i18next';
-import { useScreenInfo, useMedia } from '@dsplay/react-template-utils';
-import axios from 'axios';
-import { useEffect, useState } from 'react';
-import dataAirports from '../../util/airports.json';
 import Main from '../main';
 import i18n from '../../i18n';
 import './style.sass';
